@@ -1,0 +1,27 @@
+
+
+.P1{
+    font-size: 2rem;
+}
+
+.P2{
+    font-size: 3rem;
+}
+
+.P3{
+    height: 10vh;
+    background-color: black;
+}
+
+.P4{
+    width: 25vw;
+
+}
+
+.P5{
+    width: 25%;
+}
+
+div{
+    background-color: aqua;
+}

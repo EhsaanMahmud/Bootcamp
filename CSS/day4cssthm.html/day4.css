@@ -1,0 +1,27 @@
+.First{
+    width: 250px;
+    height: 250px;
+    background-color: aquamarine;
+    position: absolute; top: 150px;
+z-index: -1;
+   
+}
+.Second{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    z-index: -2;
+}
+
+.Third{
+    width: 250px;
+    height: 250px;
+    background-color: chartreuse;
+    z-index: -3;
+
+}
+
+.Third:hover{
+    z-index: 3;
+    
+}

@@ -1,0 +1,53 @@
+
+header{
+    background-color: burlywood;
+    padding:10px 20px;
+    grid-area: header;
+    
+}
+
+nav{
+    background-color: burlywood;
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    height: 100%;
+  margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    background-color: blue;
+}
+
+main{
+    grid-area: main;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer{
+    grid-area: footer;
+    background-color: burlywood;
+}
+
+.div1{
+    background-color: burlywood;
+    height: 250px;
+    width: 300px;
+    margin-top: 30px;
+    justify-content: center;
+    
+}
+
+footer{
+    background-color: burlywood;
+    height: 50px;
+
+}

@@ -1,0 +1,59 @@
+
+header{
+    background-color: burlywood;
+    padding:10px 20px;
+    grid-area: header;
+    
+}
+
+nav{
+    background-color: burlywood;
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    height: 100%;
+  margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    background-color: blue;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+.menu{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.menugroup{
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid chocolate;
+}
+
+.milkshakes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5em;
+    padding: 1.5em 0;
+}
+
+.milkshakeitem{
+    display: flex;
+}
+
+.milkshakeitem{
+    width: 120px;
+    height: 120px;
+}

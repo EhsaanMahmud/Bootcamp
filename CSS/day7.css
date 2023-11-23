@@ -1,0 +1,39 @@
+
+
+.animation{
+    background-color: aqua;
+    width: 150px;
+    height: 100px;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+    
+}
+
+
+@keyframes move {
+
+    0%{
+
+    }
+    25%{
+        margin-left: 200px;
+    }
+
+    50%{
+        margin-left: 200px;
+        margin-top: 200px;
+    }
+   
+    75%{
+        margin-left: 0px;
+        margin-top: 200px;
+    }
+    100%{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+
+}
